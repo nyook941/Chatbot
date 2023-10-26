@@ -5,7 +5,7 @@ import { addResponse, setAudioBlobUrl } from "../../../redux/slices/chat-slice";
 import { S3 } from "aws-sdk";
 import axios from "axios";
 import { Buffer } from "buffer";
-import sendRequestToFastAPI from "../test-button/send-request-to-fastAPI";
+import sendRequestToFastAPI from "../fastAPI-request/send-request-to-fastAPI";
 
 export default function SendButton({ ws, text }) {
   const dispatch = useDispatch();
